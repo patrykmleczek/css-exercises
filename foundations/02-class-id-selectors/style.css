@@ -1,0 +1,19 @@
+.odd-element {
+    background-color: rgb(252, 141, 141);  
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#ID1 {
+    color: rgb(0, 0, 190);
+    font-size: 36px;
+}
+
+.odd-element.number-3 {
+    font-size: 24px;
+}
+
+#ID2 {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px; /* I've also could add class .odd-element.number-3 to div with #ID2 */
+    font-weight: bold;
+}
