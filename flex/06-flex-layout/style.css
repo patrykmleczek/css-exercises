@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -24,4 +27,81 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* my solution */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.header .left-links {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.header .right-links {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+body .content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.right-links li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left-links li {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .left-links {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.footer .right-links {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
 }
